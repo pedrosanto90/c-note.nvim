@@ -3,4 +3,12 @@
 
 ## Usage
 
+```lua
+require {
+    'pedrosanto90/c-note.nvim'
+}
+```
+`<space>cn` executes the plugin
 
+### Credits
+pedrosanto90
