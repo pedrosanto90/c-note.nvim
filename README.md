@@ -14,7 +14,10 @@ return {
 ```
 
 ## Usage
-`<space>cn` executes the plugin
+
+| Key | Function |
+|--|--|
+| `<space>cn` | executes the plugin |
 
 ### Credits
 pedrosanto90
