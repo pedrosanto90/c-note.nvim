@@ -1,13 +1,19 @@
-`c-note.nvim`
+# `c-note.nvim`
 (yes, that C-Note)
 
-## Usage
-
+## Instalation
 ```lua
-require {
-    'pedrosanto90/c-note.nvim'
+return {
+  {
+    "pedrosanto90/c-note.nvim",
+    config = function()
+      require "c-note"
+    end
+  }
 }
 ```
+
+## Usage
 `<space>cn` executes the plugin
 
 ### Credits
