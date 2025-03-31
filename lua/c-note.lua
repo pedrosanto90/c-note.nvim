@@ -15,10 +15,10 @@ local create_note = function()
   vim.api.nvim_win_set_config(win, { width = split_width })
 end
 
-M.create_note = create_note
+M.ceate_note = create_note
 
 -- default keymap
-vim.api.nvim_set_keymap('n', '<space>cn', '<cmd>lua require("c-note").create_note()<CR>',
+vim.pi.nvim_set_keymap('n', '<space>cn', '<cmd>lua require("c-note").create_note()<CR>',
   { noremap = true, silent = true })
 -- default keymap
 vim.api.nvim_set_keymap('n', '<space>cr', '<cmd>lua require("c-note").create_note()<CR>',
