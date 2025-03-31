@@ -20,6 +20,9 @@ M.create_note = create_note
 -- default keymap
 vim.api.nvim_set_keymap('n', '<space>cn', '<cmd>lua require("c-note").create_note()<CR>',
   { noremap = true, silent = true })
+-- default keymap
+vim.api.nvim_set_keymap('n', '<space>cr', '<cmd>lua require("c-note").create_note()<CR>',
+  { noremap = true, silent = true })
 -- M.create_split()
 
 M._create_note = create_note
